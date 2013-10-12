@@ -1,0 +1,25 @@
+{
+  "name": "openstage-ssh",
+  "version": "0.0.1",
+  "description": "Enables OpenStage Phone SSH shell temporarily via WBM.",
+  "main": "index.js",
+  "keywords": [
+    "openstage",
+    "siemens",
+    "ssh",
+    "wbm"
+  ],
+  "author": "Sebastian Janzen <sebastian@janzen.it>",
+  "respository" : {
+    "type": "git",
+    "url": "https://github.com/sja/openstage-ssh.git"
+  },
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "request": "~2.27.0",
+    "q": "~0.9.7"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  }
+}
