@@ -17,7 +17,7 @@ ossh.getState (state) ->
 			console.log "Disabled SSH."
 		
 	else
-		ossh.enable 1, 10, (res) -> 
+		ossh.enable 10, 60, (res) -> # Enable logins for 10 Minutes, sessions for 60 Minutes
 			console.log "Enabled SSH. Settings: " + util.inspect res
 			
 			ossh.getState (res) -> 
